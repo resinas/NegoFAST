@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>negofast</groupId>
+    <artifactId>negofast</artifactId>
+    <version>1.0</version>
+  </parent>
+  
+  <artifactId>model-lite</artifactId>
+  <name>ModelLite</name>
+  <description>ModelLite is a set of interfaces that define a specific model for expressing agreements, proposals and preferences. Agreements and proposals are modelled as a set of name-value pairs, whereas preferences are modelled as weighted utility functions.</description>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>negofast</groupId>
+  		<artifactId>negofast-core</artifactId>
+  	</dependency>
+  </dependencies>
+  
+</project>

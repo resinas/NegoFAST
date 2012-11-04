@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>negofast</groupId>
+		<artifactId>negofast</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>demo-jobs-submitter</artifactId>
+	<name>Demo: JobsSubmitter</name>
+	<description>It is a sample implementation of an automated negotiation system based on the NegoFAST framework. It implements the negotiation of a job submission agreement amongst a job submitter and two job hosting services.</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>negofast</groupId>
+			<artifactId>august</artifactId>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<configuration>
+					<mainClass>negofast.demo.Starter</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

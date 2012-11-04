@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>negofast</groupId>
+		<artifactId>negofast</artifactId>
+		<version>1.0</version>
+	</parent>
+	
+	<artifactId>august</artifactId>
+	<name>August</name>
+	<description>August is a proof-of-concept implementation of the NegoFAST framework and ModelLite that also includes the specification of a simple protocol negotiation protocol and a negotiation protocol.</description>
+	
+	<dependencies>
+		<dependency>
+			<groupId>negofast</groupId>
+			<artifactId>negofast-bargaining</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>negofast</groupId>
+			<artifactId>model-lite</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>negofast</groupId>
+			<artifactId>simple-protocol</artifactId>
+		</dependency>
+	</dependencies>
+	
+</project>
